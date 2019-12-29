@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_slide_notification">#000000</color>
+    <color name="color_toolbar">#BFBFBF</color>
+    <color name="color_background">#E5CA8B</color>
+    <color name="color_hamburger">#DCDCDC</color>
+
+    <color name="color_important">#FF0000</color>
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inscription_confirmation"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.henallux.chrisoliver.View.InscriptionConfirmationActivity">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!--Title-->
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32dp"
+                android:text="@string/_inscription"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <!--Space-->
+        <LinearLayout
+            android:id="@+id/TitleSpace"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"/>
+
+        <!--Inscription Form-->
+        <LinearLayout
+            android:id="@+id/identificationInformation"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_below="@id/title">
+            <!--Name-->
+            <TextView
+                android:id="@+id/inscriptionName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dip"
+                android:paddingBottom="15dip"
+                android:textAlignment="center"
+                android:text=""/>
+            <!--First Name-->
+            <TextView
+                android:id="@+id/inscriptionFirstName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dip"
+                android:paddingBottom="15dip"
+                android:textAlignment="center"
+                android:text=""/>
+            <!--Mail-->
+            <TextView
+                android:id="@+id/inscriptionMail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dip"
+                android:paddingBottom="15dip"
+                android:textAlignment="center"
+                android:text=""/>
+        </LinearLayout>
+
+        <!--Space-->
+        <LinearLayout
+            android:id="@+id/FormSpace"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/Button"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_below="@id/identificationInformation">
+            <!--Confirm Button-->
+            <Button
+                android:id="@+id/button_confirmation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/_confirmation"/>
+        </LinearLayout>
+
+        <!--Space-->
+        <LinearLayout
+            android:id="@+id/ButtonConfirmationSpace"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"/>
+    </RelativeLayout>
+</ScrollView>

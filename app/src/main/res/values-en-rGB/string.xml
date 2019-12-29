@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="_home">Home</string>
+    <string name="_basket">Selection</string>
+    <string name="app_name">Chris Oliver</string>
+    <string name="_research">Research</string>
+    <string name="_customer">Customer</string>
+    <string name="_evaluation">Evaluation</string>
+    <string name="_log_off">Log off</string>
+    <string name="_settings">Settings</string>
+    <string name="_connection">Connection</string>
+    <string name="_inscription">Inscription</string>
+    <string name="_email">EMail</string>
+    <string name="_password">Password</string>
+    <string name="_error_connection">Incorrect username or password.</string>
+    <string name="_text_home">Welcome to Chris Oliver application!</string>
+    <string name="_text_home_bis">Welcome to Chris Oliver application. The aim is to identify local producers in the region.</string>
+    <string name="_loading">Loading</string>
+    <string name="_please_wait">Please wait.</string>
+    <string name="_producer_evaluation">This collection has not received an evaluation yet.</string>
+    <string name="_no_internet_connection">No internet connection. Please enable Internet and restart the application.</string>
+    <string name="_menu_error">You are already on this page.</string>
+    <string name="_error_logout">Failed to disconnect.</string>
+    <string name="_return">Return</string>
+    <string name="_add_to_basket">Add to Selection.</string>
+    <string name="_name">Name</string>
+    <string name="_first_name">First name</string>
+    <string name="_next">Next</string>
+    <string name="_password_error">Password are different or incorrect !</string>
+    <string name="_incorrect_name">The name is incorrect !</string>
+    <string name="_incorrect_first_name">The first name is incorrect !</string>
+    <string name="_incorrect_email">The e-mail address is incorrect !</string>
+    <string name="_size_password">The password must contain at least 7 characters, one lowercase, one uppercase, one special character and one digit.</string>
+    <string name="_confirmation">Confirm</string>
+    <string name="_validation">Valid</string>
+    <string name="_error">Error.</string>
+    <string name="_producer_add_to_selection">The collection has been added to your selection.</string>
+    <string name="_deleted_producer_to_selection">Deleted.</string>
+    <string name="_score_producer">You can assign a score of 5 to the collection. Click on a collection to select it.</string>
+    <string name="_assess">Assess</string>
+    <string name="_vid_validated">Your vid has been validated.</string>
+    <string name="_enter_rating">Please enter a rating from 0 to 5.</string>
+    <string name="_back">Back</string>
+
+</resources>

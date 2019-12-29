@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inscription_confirmation"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.henallux.chrisoliver.View.ConnectionActivity">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!--Title-->
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32dp"
+                android:text="@string/_connection"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <!--Space-->
+        <LinearLayout
+            android:id="@+id/TitleSpace"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"/>
+
+        <!--Identification-->
+        <LinearLayout
+            android:id="@+id/identificationInformation"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_below="@id/title">
+            <!--Email-->
+            <EditText
+                android:id="@+id/identificationEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginLeft="10dip"
+                android:inputType="textEmailAddress"
+                android:hint="@string/_email"/>
+            <!--password-->
+            <EditText
+                android:id="@+id/identificationPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginLeft="10dip"
+                android:inputType="textPassword"
+                android:hint="@string/_password"/>
+        </LinearLayout>
+
+        <!--Space-->
+        <LinearLayout
+            android:id="@+id/FormSpace"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/Button"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_below="@id/identificationInformation">
+            <!--Connection Button-->
+            <Button
+                android:id="@+id/identificationButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/_confirmation"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

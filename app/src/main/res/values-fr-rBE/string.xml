@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="_home">Accueil</string>
+    <string name="_basket">Selection</string>
+    <string name="app_name">Chris Oliver</string>
+    <string name="_research">Recherche</string>
+    <string name="_customer">Client</string>
+    <string name="_evaluation">Évaluation</string>
+    <string name="_log_off">Déconnexion</string>
+    <string name="_settings">Paramètres</string>
+    <string name="_connection">Connexion</string>
+    <string name="_inscription">Inscription</string>
+    <string name="_email">EMail</string>
+    <string name="_password">Mot de passe</string>
+    <string name="_error_connection">L\'identifiant ou le mot de passe est incorrect.</string>
+    <string name="_text_home">Bienvenue dans l\’application Chris Oliver !</string>
+    <string name="_text_home_bis">Bienvenue dans l\'application Chris Oliver. Celle-ci a pour but de répertorier les collections de meubles.</string>
+    <string name="_loading">Chargement</string>
+    <string name="_please_wait">Veuillez patienter.</string>
+    <string name="_producer_evaluation">La collection n\'a pas encore reçu d\'évaluation.</string>
+    <string name="_no_internet_connection">Pas de connexion internet. Veuillez activer internet et relancer l\'application.</string>
+    <string name="_menu_error">Vous êtes déjà sur cette page.</string>
+    <string name="_error_logout">Échec de déconnection.</string>
+    <string name="_return">Retour</string>
+    <string name="_add_to_basket">Ajouter à la sélection</string>
+    <string name="_name">Nom</string>
+    <string name="_first_name">Prénom</string>
+    <string name="_next">Suivant</string>
+    <string name="_password_error">Les mots de passe sont différents ou incorrects !</string>
+    <string name="_incorrect_name">Le nom est incorrect !</string>
+    <string name="_incorrect_first_name">Le prénom est incorrect !</string>
+    <string name="_incorrect_email">L\'adresse email incorrect !</string>
+    <string name="_size_password">Le mot de passe doit contenir au moins 7 caractères, une minuscule, une majuscule, un caractère spécial et un chiffre.</string>
+    <string name="_confirmation">Confirmer</string>
+    <string name="_validation">Valider</string>
+    <string name="_error">Erreur.</string>
+    <string name="_producer_add_to_selection">La collection a été ajouté à votre sélection.</string>
+    <string name="_deleted_producer_to_selection">Supprimé.</string>
+    <string name="_score_producer">Vous pouvez attribuer une note sur 5 pour la collection . cliquez sur une collection pour la sélectionner.</string>
+    <string name="_assess">Évaluer</string>
+    <string name="_vid_validated">Votre vôte a été validé.</string>
+    <string name="_enter_rating">Veuillez introduire une note entre 0 et 5.</string>
+    <string name="_back">Retour</string>
+
+</resources>
